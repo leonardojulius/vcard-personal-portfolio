@@ -113,7 +113,37 @@
 
 
 
+.experience-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #f0f0f0;
+}
 
+.experience-list li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.btn-link {
+  display: inline-block;
+  margin-top: 8px;
+  background-color: #007acc;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-link:hover {
+  background-color: #005f99;
+}
+
+.icon-large {
+  font-size: 40px;
+  color: #e5c565; /* or any desired color */
+}
 
 /*-----------------------------------*\
   #RESET
